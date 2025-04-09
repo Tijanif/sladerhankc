@@ -5,8 +5,11 @@ Denne applikasjonen visualiserer arbeidsledighetsdata fra Statistisk sentralbyr�
 
 Applikasjonen bruker Google Gemini AI til å generere kontekstuell innsikt og analyser av dataene, som gir brukerne en dypere forståelse av trendene.
 
+## Direkte tilgang
+Du kan få tilgang til den deployerte versjonen av appen her: [Sladrehank - Arbeidsledighetsapp](https://sladerhankc.streamlit.app/)
+
 ## Skjermbilde
-![Applikasjonsskjermbilde](https://example.com/screenshot.png) <!-- Erstatt med faktisk skjermbilde når tilgjengelig -->
+![Arbeidsledighetsapp Skjermbilde](images/app_screenshot.png)
 
 ## Funksjoner
 - **Generell arbeidsledighetstrend**: Visualisering av den totale arbeidsledigheten i Norge fra 2015 til 2024
@@ -57,6 +60,14 @@ GEMINI_API_KEY=din_api_nøkkel_her
 **Merk**: `.env`-filen er lagt til i `.gitignore` og vil ikke bli inkludert i Git-repository for å beskytte API-nøkkelen din.
 
 ## Kjøre applikasjonen
+
+### Online versjon
+Den enkleste måten å bruke applikasjonen på er å besøke den deployerte versjonen på Streamlit Cloud:
+[https://sladerhankc.streamlit.app/](https://sladerhankc.streamlit.app/)
+
+### Lokal kjøring
+Hvis du ønsker å kjøre applikasjonen lokalt, følg disse trinnene:
+
 Start Streamlit-appen med følgende kommando:
 ```bash
 streamlit run app.py
